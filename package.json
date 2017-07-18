@@ -1,0 +1,24 @@
+
+{
+  "name": "berlink_clock_javascript",
+  "version": "1.0.0",
+  "description": "test  with karma and jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt karma",
+    "continuous": "grunt karma:continuous"
+  },
+
+  "author": "mahdi wafi",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-karma": "^2.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-sinon": "^1.0.5",
+    "sinon": "^1.17.4"
+  }
+}
